@@ -29,7 +29,13 @@ class PageParser(HTMLParser):
 
 
 def target_for(page: Path, url_path: str) -> Path:
-    target = (page.parent / unquote(url_path)).resolve()
+    decoded_path = unquote(url_path)
+    # Root-relative website URLs (for example href="/") resolve from the
+    # static document root, not from the runner filesystem root.
+    if decoded_path.startswith("/"):
+        target = (ROOT / decoded_path.lstrip("/")).resolve()
+    else:
+        target = (page.parent / decoded_path).resolve()
     if target.is_dir():
         target = target / "index.html"
     elif not target.suffix and not target.exists():
