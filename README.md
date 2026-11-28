@@ -31,7 +31,7 @@ Publish the repository root as the static document root. The entry point is `ind
 
 ## Product status
 
-This repository contains the public static website and product documentation. The Yevqo Control Plane and Go Agent are implemented for beta testing. Dashboard illustrations are explicitly labelled as illustrative and are not live telemetry. The current Free beta permits one connected Android device; projects are not limited by count. Public package distribution, physical Android clean-install/upgrade acceptance and external-domain reachability remain launch gates. AI agents and public Pro checkout are not available.
+This repository contains the public static website and product documentation. The Yevqo platform and Go Agent are implemented for beta testing. Dashboard illustrations are explicitly labelled as illustrative and are not live telemetry. The current Free beta permits one connected Android device; projects are not limited by count. Public package distribution, physical Android clean-install/upgrade acceptance and external-domain reachability remain launch gates. AI agents and public Pro checkout are not available.
 
 ## Marketing and release readiness
 
