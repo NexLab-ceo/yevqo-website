@@ -5,7 +5,7 @@ Product stage: **Free beta / Android ARM64 validation in progress**
 
 ## Positioning
 
-Yevqo is an Android-first server control plane for people who want to run and manage their own applications in Termux. A Go Agent connects an Android device to a browser dashboard for projects, applications, builds, deployments, logs and device telemetry.
+Yevqo is an Android-first infrastructure platform for people who want to run their own applications on Android + Termux. A Go Agent connects supported devices to Yevqo for project, application, build, deployment and log workflows.
 
 **Core promise:** Your Android. Your Server. Your Control.
 
@@ -35,11 +35,11 @@ Avoid broad targeting of businesses looking for guaranteed uptime, managed hosti
 
 ### Short social ad
 **Your Android can be a server.**  
-Yevqo brings projects, applications, builds and device monitoring into one control panel built around Android + Termux. Join the free beta.
+Yevqo brings projects, applications, builds and device monitoring into one workspace built around Android + Termux. Join the free beta.
 
 ### Search / text ad
 **Run your projects on Android with Yevqo**  
-An Android-first control plane for Termux. Manage applications, deployments and logs from one dashboard. Free beta · one connected device.
+An Android-first platform for Termux. Manage applications, deployments and logs in one workspace. Free beta · one connected device.
 
 ### Short video hook
 “You already have a computer in your pocket. What if you could manage the services it runs from one dashboard? Meet Yevqo — built for Android and Termux.”
