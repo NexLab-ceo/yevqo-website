@@ -122,3 +122,6 @@
 
 /* Keep every legacy component inside the graphite / blue palette. */
 .new-site .language-toggle{background:#111c2c!important;color:#8AB4FF!important;border-color:rgba(138,180,255,.35)!important}.new-site .language-toggle:hover{background:#1b2b43!important;border-color:#8AB4FF!important}.new-site .green,.new-site .stack-dot.green{background:#8AB4FF!important;color:#8AB4FF!important}.new-site .connected,.new-site .stat-online{color:#8AB4FF!important}
+
+/* Upcoming account action: visible but intentionally unavailable. */
+.new-site .coming-soon{cursor:not-allowed!important;}
